@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<input type="button" value="test" onclick="bananeClick();"></input>
+<span id="score">0</span>
+ 
+<script>
+var score = 0;
+function bananeClick(){
+   score++;
+   document.getElementById("score").innerHTML = score;
+}
+</script>
+</body>
+</html>
